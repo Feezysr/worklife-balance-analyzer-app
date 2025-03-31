@@ -1,69 +1,61 @@
-# Welcome to your Lovable project
 
-## Project info
+# Frontlett Work-Life Balance Analyzer & Job Listings Platform
 
-**URL**: https://lovable.dev/projects/250a24ff-15d7-446e-8829-8252ac25433c
+## Project Overview
 
-## How can I edit this code?
+This application is a fully functional Work-Life Balance Analyzer integrated with Frontlett's virtual job listing ecosystem. Users can input their work-life details, and the system will calculate a Work-Life Balance Score (0-10), categorize it as Poor, Average, or Good, and provide actionable insights. The platform also allows job seekers to explore Frontlett's virtual job listings that align with their work-life preferences.
 
-There are several ways of editing your application.
+## Key Features
 
-**Use Lovable**
+### 1. User Profile & Work-Life Data Collection
+- **Basic Demographics:** Name, Age, Gender, Job Role, Industry, Work Setup, etc.
+- **Work Hours & Setup:** Work hours, overtime frequency, commute time, etc.
+- **Work Satisfaction & Stress:** Stress level, job satisfaction, workload perception, etc.
+- **Workplace Culture & Boundaries:** Ability to disconnect, vacation days, burnout level, etc.
+- **Personal Well-being:** Sleep, exercise, diet quality, mental health, etc.
+- **Personal Goals & Fulfillment:** Career growth, life control, etc.
+- **Custom Priorities:** Users rank what matters most to them.
+- **Open-Ended Feedback:** Users can share their struggles and wishes.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/250a24ff-15d7-446e-8829-8252ac25433c) and start prompting.
+### 2. Work-Life Balance Scoring System
+- Calculates a Work-Life Balance Score (0-10)
+- Categorizes as Poor (0-3), Average (4-6), or Good (7-10)
+- Generates personalized recommendations
 
-Changes made via Lovable will be committed automatically to this repo.
+### 3. Data Visualization & Insights
+- Graphical representation of balance score
+- Breakdown of different balance factors
+- Highlights problem areas
 
-**Use your preferred IDE**
+### 4. Smart Virtual Job Listings Integration
+- Recommends jobs that align with work-life preferences
+- Filters for remote, hybrid, and flexible-schedule jobs
+- Shows work-life expectations in job descriptions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 5. Modern, Interactive UI
+- Clean, modern design
+- Dark and light mode options
+- Smooth animations and transitions
+- Step-by-step user experience
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technology Stack
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- shadcn/ui component library
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/250a24ff-15d7-446e-8829-8252ac25433c) and click on Share -> Publish.
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Open your browser to `http://localhost:8080`
 
-## I want to use a custom domain - is that possible?
+## URL
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+[Frontlett Work-Life Balance Analyzer](https://lovable.dev/projects/250a24ff-15d7-446e-8829-8252ac25433c)
+
+## License
+
+© 2023 Frontlett Inc. All rights reserved.
