@@ -308,7 +308,7 @@ export function getJobListings(workLifeData: WorkLifeData): JobListing[] {
   return mockJobs
     .filter(job => {
       // Filter by work setup preference if specified
-      if (preferredSetup && preferredSetup !== '') {
+      if (preferredSetup && preferredSetup !== '' && preferredSetup !== undefined) {
         if (job.workSetup !== preferredSetup) return false;
       }
       
