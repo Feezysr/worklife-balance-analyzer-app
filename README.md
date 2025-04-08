@@ -54,7 +54,7 @@ This application is a fully functional Work-Life Balance Analyzer integrated wit
 
 ## URL
 
-[Frontlett Work-Life Balance Analyzer](https://lovable.dev/projects/250a24ff-15d7-446e-8829-8252ac25433c)
+[Frontlett Work-Life Balance Analyzer](https://balance-junction.lovable.app/)
 
 ## License
 
