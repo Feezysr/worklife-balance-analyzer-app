@@ -1,4 +1,3 @@
-
 # Frontlett Work-Life Balance Analyzer & Job Listings Platform
 
 ## Project Overview
@@ -54,7 +53,7 @@ This application is a fully functional Work-Life Balance Analyzer integrated wit
 
 ## URL
 
-[Frontlett Work-Life Balance Analyzer](https://balance-junction.lovable.app/)
+[Frontlett Work-Life Balance Analyzer](https://worklife-balance-analyzer-app-rfqv.vercel.app/)
 
 ## License
 
